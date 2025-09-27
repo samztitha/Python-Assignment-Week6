@@ -1,9 +1,9 @@
 import json
 import requests
 
-# -------------------------------
+
 # 1. Convert a Python dictionary into JSON and save it in a file
-# -------------------------------
+
 data = {
     "name": "Samztitha",
     "age": 23,
@@ -84,3 +84,4 @@ if resp.status_code == 200:
     print(f"{website} is UP ✅ (200 OK)")
 else:
     print(f"{website} returned status code {resp.status_code}")
+
